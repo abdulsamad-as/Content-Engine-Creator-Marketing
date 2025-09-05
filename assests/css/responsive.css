@@ -1,0 +1,336 @@
+@media (max-width: 768px){
+    .container{
+        width: 100% !important;
+        text-align: center;
+        
+    }
+    section{
+        padding: 20px;
+    }
+    .hamburger{
+        display: block ;
+        font-size: 36px;
+    }
+    #check:checked + .hamburger +nav{
+        visibility: visible;
+        opacity: 1;
+    }
+    .header{
+        padding: 20px !important;
+        position:fixed;
+        top: unset !important;
+        left: unset !important;
+        transform: unset !important;
+        background: #0a0a0a;
+    }
+
+
+    nav{
+        visibility: hidden ;
+        opacity: 0;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: 62px;
+        background-color: #000;
+        transition: all 0.5s ease-in-out;
+        z-index: 9;
+        padding: 20px 0 30px 0;
+        
+    }
+    .header nav ul {
+    flex-direction: column;
+      align-items: start;
+      gap: 20px;
+      color: #fff;
+      padding-left: 20px;
+      background-color: black;
+      position: unset;
+    }
+
+   
+.header nav ul li{
+    padding: 0px;
+}
+
+.head{
+    width: 100%;
+padding: unset;
+gap: 70%;
+box-shadow: unset;
+border: unset;
+}
+.btn-header{
+    padding: 12px 90px;
+}
+
+   .hero {
+    height: 100%;
+     display: flex;
+    justify-content: center;
+     align-items: center; 
+     text-align: center; 
+    padding-top: 100px;
+    margin-top: unset; 
+
+}
+.bg {
+  background: radial-gradient(
+    circle at bottom center,
+    #5e8dff 0%,    /* bright blue */
+    #8aa4ff 30%,   /* lighter blue */
+    #b4b9ff 50%,   /* very light blue */
+    #4a3b93 70%,   /* purple */
+    #100a1e 90%,   /* very dark purple */
+    #000000 100%   /* black */
+  );
+  filter: blur(30px); /* Blurred glow effect */
+    border-radius:100%;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    bottom: -150px;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    z-index: -1;}
+    .hero-content{
+          position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+.none{
+    display: none;
+}
+.font16{
+    font-size: 14px;
+}
+.style
+{
+    padding: 6px 10px;
+    
+}
+.font-60 {
+    font-size: 50px;
+}
+.mt-left{
+       margin-right:unset;
+    margin-left: unset;
+}
+.testimonial {
+     display:unset;
+
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.font-22{
+    font-size: 15px;
+}
+
+
+
+.profile img{
+    margin-right: unset;
+}
+ 
+
+.video-container iframe {
+    width: 240px;
+    height: 160px;
+     border-radius: 10px; 
+}
+    
+.btny{
+    padding: 6px 9px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.profile1{
+    justify-content: center;
+}
+.line-height39 {
+    line-height: 24px;
+}
+.testimonial1-text {
+    margin-left: unset; 
+    max-width:unset; 
+     text-align: unset;
+}
+.testimonial-text {
+     margin-left: unset; 
+     max-width: unset; 
+ text-align: unset; 
+}
+.testimonial1-wrapper {
+    display: unset;
+   
+}
+.testimonial1{
+    width: 100%;
+     margin-top: 50px;
+
+}
+.video-container1 iframe {
+   width: 240px;
+    height: 160px;
+    border-radius: 10px;
+
+}
+
+.mt-300 {
+    padding-left: unset;
+    padding-right: unset;
+    margin-bottom: 20px;
+}
+.col9 {
+    width: 100%;
+}
+.col9 iframe {
+    width: 240px;
+    height: 160px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.mb-100 {
+    margin-bottom: 40px;
+}
+.width700 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.border{
+    margin-bottom: unset;
+}
+.col{
+    display: unset;
+}
+.col3{
+    width: 100%;
+    display: unset;
+}
+
+        .short-card iframe {
+        width: 240px;
+        height: 460px;
+        padding-top: 20px;
+    }
+
+    .col7 {
+    width: 100%;
+}
+
+.gap40 {
+    display: unset;
+}
+.col18 iframe{
+     width: 240px;
+    height: 160px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.pd-200 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.gap102 {
+   display: unset;
+}
+.coll {
+    width: 100%;
+  
+}
+.pd-130 {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.gap130{
+    display: unset;
+}
+.footer-right{
+    display: unset;
+}
+.gap31{
+    display: unset;
+}
+.slick-carousel {
+  width: 100%;
+}
+
+/* Make track behave like a proper row */
+.slick-carousel .slick-track {
+  display: flex !important;
+}
+
+/* Each slide fills available space */
+.slick-carousel .slick-slide {
+  display: flex !important;
+  justify-content: center;
+
+  height: auto;
+ margin-right: 15px;
+ 
+}
+.mb-30{
+    margin-bottom: 30px !important;
+}
+
+/* Card wrapper inside slick-slide */
+.slick-carousel .slick-slide > div {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* If your cards have images */
+
+  .slick-carousel {
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  .slick-carousel .slick-slide > div {
+    padding: 6px;
+  }
+  
+ 
+  .slick-carousel .slick-track {
+  display: flex !important;
+  flex-direction: row;
+  height: auto !important;
+}
+
+.slick-carousel .slick-slide {
+  display: flex !important;
+  align-items: stretch;
+  height: auto !important;
+}
+
+.slick-carousel .slick-slide > div,
+.slick-carousel .card {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.newsletter-form{
+    display: unset;
+} 
+.borders1{
+    margin-bottom: 10px !important;
+}
+.ml-110{
+    margin-left: 0px;
+    width: 100% !important;
+}
+.footer-left{
+    max-width: 100%;
+} 
+}
