@@ -107,6 +107,18 @@ border: unset;
 .font16{
     font-size: 14px;
 }
+.btnr{
+    padding: 6px 9px;
+}
+.btni {
+    padding: 6px 9px; 
+}
+.newsletter-form button {
+    padding: 6px 14px;
+    margin-top: 10px;
+   
+    }
+
 .style
 {
     padding: 6px 10px;
